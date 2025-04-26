@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Boggle Game | Hetu Patel</title>
+  <link rel="icon" href="https://emojiapi.dev/api/v1/game_die/32.png" type="image/png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+
+<body class="bg-slate-900 text-white font-sans">
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-8">
+    <h1 class="text-5xl md:text-7xl font-bold text-purple-400 mb-4 animate-bounce">
+      🎲 Boggle Game
+    </h1>
+    <p class="text-lg md:text-xl text-sky-400 max-w-2xl mb-8">
+      A dynamic word search puzzle powered by Elixir and functional programming.
+    </p>
+    <a href="#about" class="bg-gradient-to-r from-purple-500 to-sky-500 text-white px-6 py-3 rounded-full shadow-lg hover:scale-110 transition-transform">
+      Learn More 🚀
+    </a>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-20 px-6 md:px-16">
+    <h2 class="text-4xl font-bold mb-6 text-center text-purple-400">📚 About the Project</h2>
+    <p class="max-w-4xl mx-auto text-center text-slate-300 leading-8">
+      The Boggle Game is a fast, exciting word-search experience built with Elixir. Players form words by connecting adjacent letters on a randomized 4x4 grid. This project showcases recursive search algorithms, dictionary validation, and functional programming paradigms.
+    </p>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-20 bg-slate-800">
+    <h2 class="text-4xl font-bold mb-8 text-center text-purple-400">✨ Features</h2>
+    <div class="grid md:grid-cols-2 gap-8 px-6">
+      <div class="bg-slate-700 p-6 rounded-lg hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold text-sky-400 mb-2">Randomized Board</h3>
+        <p>Every game is unique with a newly generated 4x4 letter grid.</p>
+      </div>
+      <div class="bg-slate-700 p-6 rounded-lg hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold text-sky-400 mb-2">Word Validation</h3>
+        <p>Check player words against extensive real-world dictionaries.</p>
+      </div>
+      <div class="bg-slate-700 p-6 rounded-lg hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold text-sky-400 mb-2">DFS Search Logic</h3>
+        <p>Uses depth-first search (DFS) and backtracking to find all valid paths.</p>
+      </div>
+      <div class="bg-slate-700 p-6 rounded-lg hover:scale-105 transition-transform">
+        <h3 class="text-xl font-semibold text-sky-400 mb-2">Scalable Design</h3>
+        <p>Optimized for speed, scalability, and ready for multiplayer extensions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How to Play -->
+  <section id="howtoplay" class="py-20 px-6">
+    <h2 class="text-4xl font-bold mb-8 text-center text-purple-400">🎮 How to Play</h2>
+    <div class="max-w-3xl mx-auto text-slate-300 leading-8">
+      <ul class="list-disc list-inside space-y-4">
+        <li>Start the game by generating a randomized Boggle board.</li>
+        <li>Find words by connecting adjacent letters vertically, horizontally, or diagonally.</li>
+        <li>Submit your words and validate them against the dictionary.</li>
+        <li>Longer words score more points!</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Tech Stack -->
+  <section id="techstack" class="py-20 bg-slate-800">
+    <h2 class="text-4xl font-bold mb-8 text-center text-purple-400">🛠️ Tech Stack</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-slate-300">
+      <div>Elixir</div>
+      <div>Mix</div>
+      <div>ExUnit</div>
+      <div>Functional Programming</div>
+    </div>
+  </section>
+
+  <!-- Future Improvements -->
+  <section id="future" class="py-20 px-6">
+    <h2 class="text-4xl font-bold mb-8 text-center text-purple-400">🔮 Future Improvements</h2>
+    <ul class="list-disc list-inside max-w-3xl mx-auto text-slate-300 space-y-4">
+      <li>🧠 Build a graphical interface (Phoenix LiveView).</li>
+      <li>🌎 Add real-time Multiplayer Mode across nodes.</li>
+      <li>📈 Create scoring systems and global leaderboards.</li>
+      <li>🎙️ Integrate voice recognition input.</li>
+      <li>🤖 Develop an AI Boggle solver bot.</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <footer class="py-10 text-center text-slate-400 bg-slate-900">
+    <p>Created with 💻 by Hetu Patel</p>
+    <div class="flex justify-center space-x-6 mt-4">
+      <a href="mailto:hetu.patel@torontomu.ca" class="hover:text-white">Email</a>
+      <a href="https://hetuvpatel.github.io/hetu-patel-portfolio/" class="hover:text-white" target="_blank">Portfolio</a>
+      <a href="https://github.com/Patel-Hetu" class="hover:text-white" target="_blank">GitHub</a>
+    </div>
+    <p class="mt-4 text-sm text-slate-500">_"Finding the right words has never been more fun!"_ 🎯🎲</p>
+  </footer>
+
+</body>
+</html>
